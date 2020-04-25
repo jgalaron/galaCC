@@ -42,7 +42,7 @@ rotate([270,0,0]){
 		translate([0,16,0]){
 			translate([0,0,0])  rotate([0,90,0]) cylinder(h = 20, r=3.3/2, $fn=26, center=true);
 			translate([8,0,0])  rotate([0,90,0]) cylinder(h = 2.1, r=6/2, $fn=26, center=true);
-			translate([-8,0,0]) rotate([90,0,0]) rotate([0,90,0]) cylinder(h = 2, r=6.7/2, $fn=6, center=true);
+			#translate([-8,0,0]) rotate([90,0,0]) rotate([0,90,0]) cylinder(h = 2, r=6.7/2, $fn=6, center=true);
 		}
 	}
 }

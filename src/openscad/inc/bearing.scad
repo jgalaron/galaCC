@@ -67,7 +67,7 @@ module vertical_bearing_base(){
 
 module vertical_bearing_holes(){
     translate(v=[0,0,-1]) cylinder(h = 62, r=bearing_diameter/2, $fn = 60);
-    rotate(a=[0,0,-70]) translate(v=[8,0,31.5]) cube(size = [5,1,62], center = true);
+   # rotate(a=[0,0,-40]) translate(v=[8,0,31.5]) cube(size = [5,1,62], center = true);
 }
 
 //Final part

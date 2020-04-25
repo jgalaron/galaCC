@@ -29,7 +29,7 @@ module x_carriage_base(){
 module x_carriage_beltcut(){
 
 	union(){
-		translate([-10,30.32,6]) cube([18,2,15]);
+	#	translate([-10,30.32,6]) cube([18,2,15]);
 
 		hull(){
 			translate([-10,30.32,6]) cube([7,2,15]);
